@@ -26,3 +26,5 @@ Copy tibber-card.js and lib/Chart.bundle.js to a folder under /www then just add
 ```yaml
 - type: 'custom:tibber-card'
 ```
+
+Creds to https://community.home-assistant.io/u/wrenchse for idea and boilerplate for the chart.
