@@ -4,7 +4,7 @@ Small lovelace card to display electicity price from Tibber, for today and tomor
 
 Create an restsensor as below. Replace <token> with a token from tibber developer portal. https://developer.tibber.com/
 
-`
+```yaml
   - platform: rest
     name: Tibber Price
     resource: https://api.tibber.com/v1-beta/gql
@@ -20,4 +20,4 @@ Create an restsensor as below. Replace <token> with a token from tibber develope
       - tomorrow
     scan_interval: 14400
     value_template: 'OK'
-`
+```
