@@ -21,3 +21,8 @@ Create an restsensor as below. Replace <token> with a token from tibber develope
     scan_interval: 14400
     value_template: 'OK'
 ```
+Copy tibber-card.js and lib/Chart.bundle.js to a folder under /www then just add it in your lovelace config.
+
+```yaml
+- type: 'custom:tibber-card'
+```
