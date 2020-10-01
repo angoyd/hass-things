@@ -1,4 +1,4 @@
-#TibberCard
+# TibberCard
 
 Small lovelace card to display electicity price from Tibber, for today and tomorrow.
 
