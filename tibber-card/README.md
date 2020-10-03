@@ -21,10 +21,16 @@ Create an restsensor as below. Replace <token> with a token from tibber develope
     scan_interval: 14400
     value_template: 'OK'
 ```
+Add the Js to Resources as a modue
+
+/local/tibber-card/TibberCard.js
+
 Copy tibber-card.js and lib/Chart.bundle.js to a folder under /www then just add it in your lovelace config.
 
 ```yaml
 - type: 'custom:tibber-card'
 ```
+
+
 
 Creds to https://community.home-assistant.io/u/wrenchse for idea and boilerplate for the chart.
