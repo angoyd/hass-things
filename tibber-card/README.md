@@ -21,7 +21,7 @@ Create an restsensor as below. Replace <token> with a token from tibber develope
     scan_interval: 14400
     value_template: 'OK'
 ```
-Add the Js to Resources as a modue
+Add the Js to Resources as a module
 
 /local/tibber-card/TibberCard.js
 
